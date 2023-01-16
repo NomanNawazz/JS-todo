@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(190, 123, 41);
+    color: white;
+}
+h1, form{
+    margin-top: 4em;
+    display: flex;
+    /* height: 30vh; */
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 5rem;
+}
+.todo-input{
+    height: 3.65rem;
+    width: 20%;
+}
+.todo-button{
+    padding: 1.7em;
+    color: rgb(158, 10, 18);
+}
